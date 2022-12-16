@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Reyes Rubio Elena - 16/12/2022 - Trabajo de fin de trimestre-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <div id="caja">
+        <picture class="portaFoto">
+            <!--Fotos grandes horizontal-->
+            <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./Fotos/foto proyecto (banner)-gh.avif"
+                type="image/avif">
+            <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./Fotos/foto proyecto (banner)-gh.webp"
+                type="image/webp">
+            <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./Fotos/foto proyecto (banner)-gh.jpg"
+                type="image/jpeg">
+            <!--Fotos grandes vertical-->
+            <source media="(orientation: portrait) and (min-width:601px)" srcset="./Fotos/foto proyecto (banner)-gv.avif"
+                type="image/avif">
+            <source media="(orientation: portrait) and (min-width:601px)" srcset="./Fotos/foto proyecto (banner)-gv.webp"
+                type="image/webp">
+            <source media="(orientation: portrait) and (min-width:601px)" srcset="./Fotos/foto proyecto (banner)-gv.jpg"
+                type="image/jpg">
+            <!--Fotos medianas horizontal-->
+            <source media="(orientation: landscape) and (min-width: 901px)" srcset="./Fotos/foto proyecto (banner)-mh.avif"
+                type="image/avif">
+            <source media="(orientation: landscape) and (min-width: 901px)" srcset="./Fotos/foto proyecto (banner)-mh.webp"
+                type="image/webp">
+            <source media="(orientation: landscape) and (min-width: 901px)" srcset="./Fotos/foto proyecto (banner)-mh.jpg"
+                type="image/jpeg">
+            <!--Fotos medianas vertical-->
+            <source media="(orientation: portrait) and (min-width:401px)" srcset="./Fotos/foto proyecto (banner)-mv.avif"
+                type="image/avif">
+            <source media="(orientation: portrait) and (min-width:401px)" srcset="./Fotos/foto proyecto (banner)-mv.webp"
+                type="image/webp">
+            <source media="(orientation: portrait) and (min-width:401px)" srcset="./Fotos/foto proyecto (banner)-mv.jpg"
+                type="image/jpg">
+            <!--Fotos pequeñas horizontal-->
+            <source media="(orientation: landscape) and (max-width: 900px)" srcset="./Fotos/foto proyecto (banner)-ph.avif"
+                type="image/avif">
+            <source media="(orientation: landscape) and (max-width: 900px)" srcset="./Fotos/foto proyecto (banner)-ph.webp"
+                type="image/webp">
+            <source media="(orientation: landscape) and (max-width: 900px)" srcset="./Fotos/foto proyecto (banner)-ph.jpg"
+                type="image/jpeg">
+            <!--Fotos pequeñas vertical-->
+            <source media="(orientation: portrait) and (max-width: 400px)" srcset="./Fotos/foto proyecto (banner)-pv.avif"
+                type="image/avif">
+            <source media="(orientation: portrait) and (max-width: 400px)" srcset="./Fotos/foto proyecto (banner)-pv.webp"
+                type="image/webp">
+            <source media="(orientation: portrait) and (max-width: 400px)" srcset="./Fotos/foto proyecto (banner)-pv.jpg" type="image/jpg">
+
+            <img alt="Banner educativo" src="./Original.jpg" />
+        </picture>
+    </div>
+    <nav>
+        <a href="Índice proyecto.html">Índice</a>
+        <a href="Datos de contacto.html">Contacto</a>
+        <a href="#" id="activo">Principal</a>
+    </nav>
+    <header>
+        <h1>CLASES PARTICULARES</h1>
+    </header>
+    <div>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>En mis años de experiencia he aprendido a afrontar los problemas desde distintos ángulos y a construir
+                relaciones positivas con mis alumnos y sus tutores legales que benefician con éxito los objetivos
+                académicos.</p>
+
+        </section>
+    </div>
+    <div id="columna">
+        <section>
+            <h2>Infantil</h2>
+            <ul class="lista">
+                <li>Niños de guardería y primaria</li>
+                <li>Enseñarles a leer e identificar emociones y socializar</li>
+                <li>Precio 10</li>
+            </ul>
+        </section>
+        <h2>Adolescente</h2>
+        <div>
+            <ul class="lista">
+                <li>Desde la eso hasta bachillerato</li>
+                <li>Técnicas de estudio, preparación y planificación del estudio</li>
+                <li>Precio 12</li>
+            </ul>
+        </div>
+        <h2>Adultos</h2>
+        <div>
+            <ul class="lista">
+                <li>Selectividad, pruebas de acceso</li>
+                <li>Búsqueda de material, técnicas de estudio, preparación y planificación del estudio</li>
+                <li>Precio 14</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>
+            ¡Recuerda que también podemos dar clase online!
+        </p>
+    </footer>
+</body>
+
+</html>

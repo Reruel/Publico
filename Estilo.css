@@ -1,0 +1,86 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    font-style: var(font-style);
+}
+
+footer {
+    background-color: rgb(75, 121, 88);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    margin: 0.5em 2%;
+    height: 1.5em;
+    width: 10%;
+    font-size: xx-large;
+    background-color: brown;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0.4em;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    padding-top: 0.2em;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+
+#activo {
+    box-shadow: 5px 5px 5px black inset;
+    background-color: rgb(114, 30, 30);
+}
+
+@media screen and (max-width:500px) and (orientation:portrait) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+#columna {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+
+img {
+    width: 100%;
+}
+
+p,
+h1,
+h2 {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#caja {
+    display: flex;
+    flex-direction: row;
+}
