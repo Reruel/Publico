@@ -52,10 +52,37 @@ nav {
     background-color: rgb(114, 30, 30);
 }
 
-@media screen and (max-width:500px) and (orientation:portrait) {
+/*Tamaño de móvil*/
+@media screen and (max-width:576px) and (orientation:portrait) {
     body {
-        background-color: black;
-        color: white;
+        background-color: rgb(245, 193, 124);
+        color: rgb(78, 78, 78);
+    }
+
+    p,
+    h1,
+    h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
+
+/*Tamaño de tablet*/
+@media screen and (max-width:768px) and (orientation:portrait) {
+    body {
+        background-color: rgb(247, 233, 215);
+        color: rgb(72, 41, 41);
+    }
+
+    p,
+    h1,
+    h2 {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 }
 
@@ -79,8 +106,20 @@ h2 {
     padding-top: 3%;
     padding-bottom: 3%;
 }
+h2::first-line {
+    color: green;
+    text-transform: uppercase;
+}
 
 #caja {
     display: flex;
     flex-direction: row;
 }
+
+ul li::marker {
+        color: brown;
+        font-size: 1.5em;
+      }
+ul li:hover {
+    background-color: whitesmoke;
+  }
