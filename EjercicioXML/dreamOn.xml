@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/lm-Juan%20Ignacio%20Quintero/soldadito.xsd">
+    <texto>
+        <informacion>
+            <titulo>Dream on</titulo>
+            <autor>Aerosmith</autor>
+        </informacion>
+        <estrofa>
+            <tipo>normal</tipo>
+            <orden>1</orden>
+            <verso>Every time that I look in the mirror</verso>
+            <verso>All these lines on my face getting clearer</verso>
+            <verso>The past is gone</verso>
+            <verso>Oh, it went by like dusk to dawn</verso>
+            <verso>Isn't that the way?</verso>
+        </estrofa>
+    </texto>
+
+    <texto>
+        <estrofa>
+            <tipo>normal</tipo>
+            <orden>2</orden>
+            <verso>Everybody's got their dues in life to pay, oh, oh, oh</verso>
+            <verso>I know nobody knows</verso>
+            <verso>Where it comes and where it goes</verso>
+            <verso>I know it's everybody's sin</verso>
+            <verso>You got to lose to know how to win</verso>
+        </estrofa>
+    </texto>
+
+    <texto>
+        <estrofa>
+            <tipo>normal</tipo>
+            <orden>3</orden>
+            <verso>Half my life's in books' written pages</verso>
+            <verso>Storing facts learned from fools and from sages</verso>
+            <verso>You view the earth</verso>
+        </estrofa>
+    </texto>
+
+    <texto>
+        <estrofa>
+            <tipo>normal</tipo>
+            <orden>4</orden>
+            <verso>Oh, sing with me, this mournful dub</verso>
+            <verso>Sing with me, sing for a year</verso>
+            <verso>Sing for the laughter, and sing for the tear</verso>
+            <verso>Sing with me, if it's just for today</verso>
+            <verso>Maybe tomorrow, the good Lord will take you away</verso>
+        </estrofa>
+    </texto>
+
+    <texto>
+        <estrofa>
+            <tipo>normal</tipo>
+            <orden>5</orden>
+            <verso>Oh, sing with me, sing for the year</verso>
+            <verso>Sing for the laughter, and sing for the tear</verso>
+            <verso>Sing it with me, if it's just for today</verso>
+            <verso>Maybe tomorrow, the good Lord will take you away</verso>
+        </estrofa>
+    </texto>
+    
+    <texto>
+        <estrofa>
+            <tipo>estribillo</tipo>
+            <orden>6</orden>
+            <verso>Dream on</verso>
+            <verso>Dream on</verso>
+            <verso>I dream on</verso>
+            <verso>Dream a little, I'll dream on</verso>
+            <verso>Dream on</verso>
+            <verso>I dream on</verso>
+            <verso>I dream on</verso>
+        </estrofa>
+    </texto>
+    
+    <texto>
+        <estrofa>
+            <tipo>estribillo</tipo>
+            <orden>7</orden>
+            <verso>Dream a little, I'll dream on</verso>
+            <verso>Dream on</verso>
+            <verso>Dream on</verso>
+            <verso>Dream on</verso>
+            <verso>I'll dream on</verso>
+             <verso>Dream on</verso>
+            <verso>Dream on</verso>
+            <verso>I dream on</verso>
+        </estrofa>
+    </texto>
+</cancion>

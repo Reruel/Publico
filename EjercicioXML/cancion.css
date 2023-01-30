@@ -1,0 +1,28 @@
+h2{
+    color:black;
+}
+
+h1{
+    background-color: greenyellow;
+}
+body{
+    counter-reset: verso;
+}
+p{
+    color:blue;
+}
+span{
+    color:blue;
+    background-color: yellow;
+    font-weight: bold;
+
+}
+p::before{
+    counter-increment: verso;
+    content: counter(verso) "- ";
+}
+p:hover{
+    background-color: green;
+    font-size: 1.5em;
+    font-style: italic;
+}
