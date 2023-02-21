@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- Autor: Reyes Rubio Elena
+Curso: 1ro DAM
+Fecha: 21/02/2023
+Ejercicio CSS3: ventanas modales-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +13,18 @@
 </head>
 
 <body>
+    <!--En el iframe añadí un enlace que se reproduce automáticamente para que el usuario pueda vivir la experiencia
+    de conocer la banda conforme lee la letra-->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GxQjx7FkmNA?rel=0&amp;autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--En este lugar añadí unos input con un label con la intención de mostrar un botoncito arriba a la derecha
+    que te permita salir fácilmente del modal, igual que otro en medio para poder acceder a él-->
     <input id="mostrar-modal" name="modal" type="radio" />
     <label for="mostrar-modal"> Modal </label>
     <input id="cerrar-modal" name="modal" type="radio" />
     <label for="cerrar-modal"> X </label>
     <div id="modal">
-        <p>¿Te ha gustado?<br/><br/><br/><br/><a href=https://www.youtube.com/channel/UCAQZ4iOfUvCQmgtd_a69N9w>Clicka aquí para acceder al canal de youtube y conocer más contenido de la banda</a></p> 
+        <!--En este apartado mostramos un modal publicitario del canal oficial de la banda-->
+        <p id="link">¿Te ha gustado?<br/><br/><br/><br/><a href=https://www.youtube.com/channel/UCAQZ4iOfUvCQmgtd_a69N9w>Clicka aquí para acceder al canal de youtube y conocer más contenido de la banda</a></p> 
         
     </div>
 

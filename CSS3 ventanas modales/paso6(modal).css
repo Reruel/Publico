@@ -1,7 +1,6 @@
-/* Separar el css del html (copiar fuera el interior del style y borrar la etiqueta en el html)
-Autor: Reyes Rubio
+/* Autor: Reyes Rubio
 1º DAM
-*/
+Fecha: 21/02/2023*/
 body {
     background-color: rgb(121, 197, 211);
 }
