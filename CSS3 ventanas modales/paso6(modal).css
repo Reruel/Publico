@@ -130,7 +130,7 @@ body>p:target {
 #cerrar-modal {
     display: none;
   }
-  #cerrar-modal + label {
+#cerrar-modal + label {
     position: absolute;
     top: 1em;
     right: 1em;
